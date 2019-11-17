@@ -1,6 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "build": "pulp browserify --optimise --to ./dist/app.js"
+    "build": "spago bundle-app --main Main --to ./dist/app.js"
   }
 }
