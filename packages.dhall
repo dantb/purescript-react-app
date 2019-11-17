@@ -121,6 +121,30 @@ let additions =
             ]
             "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git"
             "v1.1.0"
+      , style =
+          mkPackage
+            [ "arrays"
+            , "colors"
+            , "integers"
+            , "maybe"
+            , "newtype"
+            , "numbers"
+            , "prelude"
+            , "record"
+            , "typelevel-prelude"
+            , "variant"
+            ]
+            "https://github.com/paulyoung/purescript-style.git"
+            "v0.17.0"
+      , styled-components =
+          mkPackage
+            [ "arrays"
+            , "halogen"
+            , "prelude"
+            , "style"
+            ]
+            "https://github.com/paulyoung/purescript-styled-components.git"
+            "v0.0.1"
       }
 
 in  upstream // overrides // additions

@@ -27,5 +27,7 @@
     , "aff-bus"
     , "struct"
     , "tolerant-argonaut"
+    , "style"
+    , "styled-components"
     ]
 }
