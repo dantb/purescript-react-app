@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pulp browserify --optimise --to ./dist/app.js"
+  }
+}
